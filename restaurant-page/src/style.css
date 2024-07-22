@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+
+:root {
+  --background: hsl(0 0% 100%);
+  --foreground: hsl(20 14.3% 4.1%);
+  --primary: hsl(24.6 95% 53.1%);
+  --primary-foreground: hsl(60 9.1% 97.8%);
+  --secondary: hsl(60 4.8% 95.9%);
+  --secondary-foreground: hsl(24 9.8% 10%);
+  --muted: hsl(60 4.8% 95.9%);
+  --muted-foreground: hsl(25 5.3% 44.7%);
+  --border: hsl(20 5.9% 90%);
+  --input: hsl(20 5.9% 90%);
+  --radius: 1rem;
+}
+
+.dark {
+  --background: hsl(20 14.3% 4.1%);
+  --foreground: hsl(60 9.1% 97.8%);
+  --primary: hsl(20.5 90.2% 48.2%);
+  --primary-foreground: hsl(60 9.1% 97.8%);
+  --secondary: hsl(12 6.5% 15.1%);
+  --secondary-foreground: hsl(60 9.1% 97.8%);
+  --muted: hsl(12 6.5% 15.1%);
+  --muted-foreground: hsl(24 5.4% 63.9%);
+  --border: hsl(12 6.5% 15.1%);
+  --input: hsl(12 6.5% 15.1%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.page-btn {
+  color: var(--background);
+  padding: 12px 24px;
+  font-family: 20px;
+
+  border-bottom: 2px solid var(--primary);
+}
+
+.page-btn:hover{
+  border-bottom: 2px solid #000;
+  color: #000;
+}
+
+header {
+  width: full;
+  background: var(--primary);
+  height: 10vh;
+  display: flex;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+
+nav h1 {
+  color: #fff;
+  font-size: 40px;
+  font-family: syne;
+}
+nav h1 span {
+  color: #000;
+  font-family: syne;
+}
