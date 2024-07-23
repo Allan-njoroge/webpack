@@ -1,0 +1,36 @@
+.home-div{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(rgba(1,1,1,0.7), rgba(1,1,1,0.7)), url("../images/banner.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.restaurant-name{
+    background: var(--primary);
+    padding: 0 5px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.home-main-heading{
+    color: var(--primary);
+    font-family: syne;
+    font-size: 50px;
+    width: 50%;
+    margin: 10px 0;
+}
+
+.home-heading-desc{
+    color: #fff;
+}
+
+.home-btn-container{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;;
+}
