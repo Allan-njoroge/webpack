@@ -39,6 +39,7 @@ button {
   border: none;
   background: none;
   cursor: pointer;
+  padding: 12px 24px;
 }
 
 .page-btn {
@@ -76,4 +77,14 @@ nav h1 {
 nav h1 span {
   color: #000;
   font-family: syne;
+}
+.pry-btn, .sec-btn:hover{
+  background: var(--primary);
+  color: #fff;
+  border: 1px solid var(--primary);
+}
+.sec-btn, .pry-btn:hover{
+  border: 1px solid var(--primary);
+  background: transparent;
+  color: var(--primary);
 }
