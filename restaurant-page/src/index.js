@@ -1,11 +1,12 @@
 import "./style.css";
 import homePage from './pages/home'
+import menuPage from './pages/menu'
 
 const homeBtn = document.querySelector("#home-btn");
 const menuBtn = document.querySelector("#menu-btn");
 const contactBtn = document.querySelector("#contact-btn");
 
-homePage()
+
 
 homeBtn.addEventListener("click", () => {
     alert(`Home button clicked`);
@@ -14,6 +15,7 @@ homeBtn.addEventListener("click", () => {
 
 menuBtn.addEventListener("click", () => {
     alert(`Menu button clicked`);
+    menuPage()
 })
 
 contactBtn.addEventListener("click", () => {
